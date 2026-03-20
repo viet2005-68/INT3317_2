@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.viet.ShippingCalculator;
-public class ShippingCalculatorTest {
+public class ShippingCalculatorBoundaryTest {
 
     @Test
     public void test1_NomNom() {
