@@ -1,7 +1,7 @@
 package org.viet;
 
 public class ShippingCalculator {
-    public static double calculateFee(double d, double w) {
+    public static double calculateFee(int d, double w) {
         if (d < 1 || d > 200 || w < 0.1 || w > 50) {
             return -1;
         }
